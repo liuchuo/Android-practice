@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         Button button = (Button) findViewById(R.id.button);
         button.setOnClickListener(this);
-        replaceFragment(new RightFragment());
+//        replaceFragment(new RightFragment());
     }
 
     private void replaceFragment(Fragment fragment) {
